@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # import data
-df = pd.read_csv("linear_regression_dataset.csv",sep = ";") 
+df = pd.read_csv("linearRegression_dataset.csv",sep = ";") 
 
 # plot data
 plt.scatter(df.deneyim,df.maas)
